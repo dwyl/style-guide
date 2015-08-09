@@ -10,13 +10,9 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
 ##Contents Guide
 + [Why?](#why)
 + [General guidelines](#general)
-  + [ ] [Indentation](#indentation)
-  + [ ] [Commenting your code](#commenting-your-code)
-+ [ ] [Git](#)
-  + [ ] [Writing issues](#)
-  + [ ] [Commit messages](#)
-  + [ ] [Pull requests](#)
-+ [ ] [Markdown](#)
+  + [x] [Indentation](#indentation)
+  + [x] [Intelligently commenting your code](#intelligently-commenting-your-code)
++ [x] [Markdown](#)
 + [ ] [CSS](#)
   
 
@@ -59,7 +55,9 @@ else {
   ...
 }
 ```
-
+##Markdown
+[This is a good reference for markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).    
+For readibility, we use `_` _underscores_ `_` for _italics_ and `**` **double asterisks** `**` for **bold**.
 
 https://github.com/dwyl/summer-2015/issues/22
 
