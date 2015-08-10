@@ -4,16 +4,18 @@
 
 <small>_https://en.wikipedia.org/wiki/Style_guide_</small>
 
+**_This style guide is a work in progress and is being put together over the course of [#dwylsummer](https://github.com/dwyl/summer-2015)_**.
 
 For now, the **visual** and **coding styles** [will live in the _same repo_](https://github.com/dwyl/summer-2015/issues/22). If the size of this readme gets out of hand or if we have a lot of requests to separate them, we'll do so.
 
 ##Contents Guide
 + [Why?](#why)
 + [General guidelines](#general)
-  + [x] [Indentation](#indentation)
-  + [x] [Intelligently commenting your code](#intelligently-commenting-your-code)
-+ [x] [Markdown](#)
-+ [ ] [CSS](#)
+  + [Indentation](#indentation)
+  + [Intelligently commenting your code](#intelligently-commenting-your-code)
++ [Markdown](#markdown)
++ [ ] [CSS](#css)
++ [ ] [JavaScript](#javascript)
   
 
 ##Why?
@@ -55,9 +57,40 @@ else {
   ...
 }
 ```
+<br/>
+
 ##Markdown
 [This is a good reference for markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).    
-For readibility, we use `_` _underscores_ `_` for _italics_ and `**` **double asterisks** `**` for **bold**.
+For readability, we use `_` _underscores_ `_` for _italics_ and `**` **double asterisks** `**` for **bold**.
+
+<br/>
+
+##CSS
+###General points
++ Use _classes_, **not IDs** as your hooks
++ Explicitly select **what you want** rather than fumbling around the HTML structure searching for hooks - practice good [_selector intent_](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/)
+  + i.e. if you're styling a site's navigation, style `primary-nav` instead of `header ul`
++ Pick class names that are as re-usable as possible (e.g. pick `primary-nav` over `site-nav`)
+
+###Indentation
+CSS indentation should mirror the HTML structure.
+```css
+.article {}
+  .article-quote {}
+```
+
+###Naming conventions
+**_For now_**, we _don't_ use [BEM CSS naming conventions](https://github.com/dwyl/start-here/issues/41) as it doesn't provide the _flexibility_ we feel we need during the early stages of our work.     
+Here's what we _do_ use:
++ Semantic class names
++ BEM-like _modifier_ syntax (using `--`), e.g. modifying `.site-logo` to `.site-logo--xmas`
+
+
+
+
+<br/>
+##JavaScript
+Semicolons please!
 
 https://github.com/dwyl/summer-2015/issues/22
 
