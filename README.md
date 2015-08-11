@@ -13,6 +13,10 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
 + [General guidelines](#general)
   + [Indentation](#indentation)
   + [Intelligently commenting your code](#intelligently-commenting-your-code)
++ [Git](#git) 
+  + [Issues](#issues)
+  + [Commits](#commits)
+  + [Pull requests](#pull-requests)
 + [Markdown](#markdown)
 + [ ] [CSS](#css)
 + [ ] [JavaScript](#javascript)
@@ -58,6 +62,33 @@ else {
 }
 ```
 <br/>
+
+##Git
+
+###Issues
+
+###Commits
++ Use the **third person present tense** in your commit messages, as if you were finishing off the sentence _"This commit message..."_
+  + For example `adds riot.js to index` or `fixes #12 disappearing content bug`
++ Include and **issue number in _every commit message_**
+  + The commit message will then appear within that issue and ensure traceability of every contribution    
+  
+<img width="704" alt="commit-message-referenced-from-issue" src="https://cloud.githubusercontent.com/assets/4185328/9212670/dda6840c-4082-11e5-8e58-c4077f5ab089.png">
++ Keep your commits **'common sensibly small'**
+  + A good rule of thumb is that _if you have to use the word 'and' in your commit message, you're probably doing too much in a single commit_ unless the things you're committing are intrinsically tied together.
++ If you're **pairing**, consider giving your pair some credit in your commit messages by including their initials:
+
+<img width="723" alt="paired-commit-message" src="https://cloud.githubusercontent.com/assets/4185328/9212496/3adc19c2-4081-11e5-956c-8655c1f37946.png">
++ Did you know you can [use emojis in your commit messages](https://github.com/dwyl/start-here/issues/49)? It's totally a thing.
+<img width="695" alt="emojis-in-commit-messages" src="https://cloud.githubusercontent.com/assets/4185328/9212573/14112b74-4082-11e5-822e-bc66250c5712.png">
+
+
+
+###Pull Requests
+
+- [ ] Adding issues numbers to every commit to ensure there's always traceability
+- [ ] Writing a good issue
+- [ ] Writing a descriptive pull request that speeds up review time and reduces the amount of back and forth between the requestee and the 
 
 ##Markdown
 [This is a good reference for markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).    
