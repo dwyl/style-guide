@@ -96,7 +96,10 @@ else {
   
 A good example is this one: https://github.com/indexzero/ps-tree/pull/12
 
+####Reviewing pull requests
++ [Inline comments on github](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/) are a very useful when reviewing pull requests, both for traceability and speed of review.
 
+<img width="940" alt="add-comment-inline-in-pr-comment-box" src="https://cloud.githubusercontent.com/assets/4185328/9238544/0d293b20-414b-11e5-8604-15ba4f229525.png">
 
 ###Naming repos
 
