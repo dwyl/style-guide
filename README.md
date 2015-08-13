@@ -17,6 +17,7 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
   + [Issues](#issues)
   + [Commits](#commits)
   + [Pull requests](#pull-requests)
+  + [Naming repositories](#naming-repos)
 + [Markdown](#markdown)
 + [ ] [CSS](#css)
 + [ ] [JavaScript](#javascript)
@@ -85,10 +86,25 @@ else {
 
 
 ###Pull Requests
++ Before submitting a pull request (PR), **open a new issue** so you can _confirm the need_ for the functionality you are intending to add (such as [this example](https://github.com/dshaw/env/issues/6))
++ When you submit your pull request, include:
+  + A **descriptive title** that answers the question "What does this PR do?"
+  + A reference to the issue that the PR solves
+  + An explanation of what the PR includes (bullet pointed lists are sometimes helpful here) and the _implementation detail_
+  + An **update to the documentation** (often the repo's readme)
+  + **Assign your pull request** 
+  
+A good example is this one: https://github.com/indexzero/ps-tree/pull/12
 
-- [ ] Adding issues numbers to every commit to ensure there's always traceability
+
+
+###Naming repos
+
+
 - [ ] Writing a good issue
 - [ ] Writing a descriptive pull request that speeds up review time and reduces the amount of back and forth between the requestee and the 
+
+<br/>
 
 ##Markdown
 [This is a good reference for markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).    
