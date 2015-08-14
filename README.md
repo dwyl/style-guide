@@ -1,10 +1,12 @@
-#dwyl Style Guide
+#dwyl Style Guide 
 
 >A style guide is a set of standards [which] establish and enforce style to improve communication.
 
 <small>_https://en.wikipedia.org/wiki/Style_guide_</small>
 
 **_This style guide is a work in progress and is being put together over the course of [#dwylsummer](https://github.com/dwyl/summer-2015)_**.
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/style-guide/issues) Please open an issue if you have an questions or comments at all!
 
 For now, the **visual** and **coding styles** [will live in the _same repo_](https://github.com/dwyl/summer-2015/issues/22). If the size of this readme gets out of hand or if we have a lot of requests to separate them, we'll do so.
 
@@ -27,7 +29,7 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
 **Consistency**.    
 
 Every developer likes to do things their own way.    
-Even though we have our own idea of what maintainable code looks like, _the important thing isn't how many spaces we indent our code with_ but that **everything is consistent** so new people _don't have to work through personal formatting quirks_ of previous developers and can **focus on the code**.
+Even though we have our own idea of what maintainable code looks like, _the important thing_ isn't how many spaces we indent our code with but that **everything is consistent** so new people _don't have to work through personal formatting quirks_ of previous developers and can **focus on the code**.
 <br/>
 <br/>
 
@@ -70,14 +72,14 @@ else {
 
 ###Commits
 + Use the **third person present tense** in your commit messages, as if you were finishing off the sentence _"This commit message..."_
-  + For example `adds riot.js to index` or `fixes #12 disappearing content bug`
-+ Include and **issue number in _every commit message_**
+  + For example _"adds riot.js to index"_ or _"fixes #12 disappearing content bug"_
++ **Include an issue number in _every commit message_**
   + The commit message will then appear within that issue and ensure traceability of every contribution    
   
 <img width="704" alt="commit-message-referenced-from-issue" src="https://cloud.githubusercontent.com/assets/4185328/9212670/dda6840c-4082-11e5-8e58-c4077f5ab089.png">
 + Keep your commits **'common sensibly small'**
   + A good rule of thumb is that _if you have to use the word 'and' in your commit message, you're probably doing too much in a single commit_ unless the things you're committing are intrinsically tied together.
-+ If you're **pairing**, consider giving your pair some credit in your commit messages by including their initials:
++ **If you're pairing**, consider giving your pair some credit in your commit messages by including their initials:
 
 <img width="723" alt="paired-commit-message" src="https://cloud.githubusercontent.com/assets/4185328/9212496/3adc19c2-4081-11e5-956c-8655c1f37946.png">
 + Did you know you can [use emojis in your commit messages](https://github.com/dwyl/start-here/issues/49)? It's totally a thing.
@@ -86,26 +88,24 @@ else {
 
 
 ###Pull Requests
-+ Before submitting a pull request (PR), **open a new issue** so you can _confirm the need_ for the functionality you are intending to add (such as [this example](https://github.com/dshaw/env/issues/6))
+Good pull requests (PR) reduce the back and forth required between the person submitting the PR and the assigned reviewer, saving everyone time.
++ Before submitting a PR, **open a new issue** so you can _confirm the need_ for the functionality you are intending to add (like in [this example](https://github.com/dshaw/env/issues/6))
 + When you submit your pull request, include:
   + A **descriptive title** that answers the question "What does this PR do?"
   + A reference to the issue that the PR solves
   + An explanation of what the PR includes (bullet pointed lists are sometimes helpful here) and the _implementation detail_
   + An **update to the documentation** (often the repo's readme)
-  + **Assign your pull request** 
+  + **Assign your pull request** to someone for review (this person will be the first point of contact if the PR merges a bug into the production environment)
   
 A good example is this one: https://github.com/indexzero/ps-tree/pull/12
 
 ####Reviewing pull requests
-+ [Inline comments on github](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/) are a very useful when reviewing pull requests, both for traceability and speed of review.
++ [Inline comments on github](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/) are very useful when reviewing pull requests, both for traceability and speed of review.
 
 <img width="940" alt="add-comment-inline-in-pr-comment-box" src="https://cloud.githubusercontent.com/assets/4185328/9238544/0d293b20-414b-11e5-8604-15ba4f229525.png">
 
 ###Naming repos
 
-
-- [ ] Writing a good issue
-- [ ] Writing a descriptive pull request that speeds up review time and reduces the amount of back and forth between the requestee and the 
 
 <br/>
 
