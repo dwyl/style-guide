@@ -105,7 +105,7 @@ Good pull requests (PR) reduce the back and forth required between the person su
 + When you submit your pull request, include:
   + A **descriptive title** that answers the question "What does this PR do?"
   + A reference to the issue that the PR solves
-  + An explanation of what the PR includes (bullet pointed lists are sometimes helpful here) and the _implementation detail_
+  + An explanation of what the PR includes (**bullet pointed lists** are sometimes helpful to make things clearer) and the _implementation detail_
   + An **update to the documentation** (often the repo's readme)
   + **Assign your pull request** to someone for review (this person will be the first point of contact if the PR merges a bug into the production environment)
   
@@ -117,7 +117,7 @@ A good example is this one: https://github.com/indexzero/ps-tree/pull/12
 <img width="940" alt="add-comment-inline-in-pr-comment-box" src="https://cloud.githubusercontent.com/assets/4185328/9238544/0d293b20-414b-11e5-8604-15ba4f229525.png">
 
 ###Naming repos
-
++ We favour one-word names for **node modules** (make sure the name is available [on npm](http://www.npmjs.com)) and descriptive names for everything else (especially tutorials!)
 
 <br/>
 
