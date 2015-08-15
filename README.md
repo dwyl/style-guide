@@ -13,8 +13,9 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
 ##Contents Guide
 + [Why?](#why)
 + [General guidelines](#general)
-  + [Indentation](#indentation)
+  + [2 Space indentation](#indentation)
   + [Intelligently commenting your code](#intelligently-commenting-your-code)
+  + [Single quotes](#quotes)
 + [Git](#git) 
   + [Issues](#issues)
   + [Commits](#commits)
@@ -64,6 +65,12 @@ else {
   ...
 }
 ```
+###Quotes
+**Use `'` single quotes `'` everywhere**, except: 
++ When constructing a string including properties which are themselves denoted by single quotes:   
+e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
++ When *manually* creating a **JSON** object/file (as these [are not valid JSON](https://github.com/dwyl/style-guide/issues/5#issuecomment-130252764))
+
 <br/>
 
 ##Git
