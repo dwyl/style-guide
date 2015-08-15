@@ -101,7 +101,7 @@ else {
 
 ###Pull Requests
 Good pull requests (PR) reduce the back and forth required between the person submitting the PR and the assigned reviewer, saving everyone time.
-+ Before submitting a PR, **open a new issue** so you can _confirm the need_ for the functionality you are intending to add (like in [this example](https://github.com/dshaw/env/issues/6))
++ Before submitting a PR, **open a new issue** so you can _confirm the need_ for the functionality you are intending to add (like in [this example](https://github.com/indexzero/ps-tree/issues/10))
 + When you submit your pull request, include:
   + A **descriptive title** that answers the question "What does this PR do?"
   + A reference to the issue that the PR solves
