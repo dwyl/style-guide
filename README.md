@@ -23,6 +23,10 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
   + [Naming repositories](#naming-repos)
 + [Markdown](#markdown)
 + [ ] [CSS](#css)
+  + [General points](#general-points)
+  + [Indentation](#indentation)
+  + [Naming conventions](#naming-conventions)
+  + [Grouping properties](#grouping-properties)
 + [ ] [JavaScript](#javascript)
   
 
@@ -154,7 +158,10 @@ Here's what we _do_ use:
 + Semantic class names
 + BEM-like _modifier_ syntax (using `--`), e.g. modifying `.site-logo` to `.site-logo--xmas`
 
-
+##Grouping properties
+* Group properties **by type**
+  * For example, `font` and `text-align` properties would sit together, as would `border`, `display`, `height` and `width` properties
+* For further organisation, favour alphabetical ordering (grouping by type _always_ takes precedence)
 
 
 <br/>
