@@ -166,7 +166,18 @@ Here's what we _do_ use:
 
 <br/>
 ##JavaScript
-Semicolons please!
++ **Use semicolons** please!
++ **No trailing commas** on object declarations:
+```javascript
+var example_object = {
+    name: 'dwyl',
+    age: 1 //<-- Having a comma after the '1' would be a 'trailing comma' 
+};
+```
+
+###Variable naming
++ If you can, use a descriptive **one word** variable name
++ If one word isn't enough, **use underscores to separate words** ([snake case](https://en.wikipedia.org/wiki/Snake_case)) and not [camel case](https://en.wikipedia.org/wiki/CamelCase): `var example_variable`
 
 https://github.com/dwyl/summer-2015/issues/22
 
