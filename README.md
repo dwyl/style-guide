@@ -13,8 +13,9 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
 ##Contents Guide
 + [Why?](#why)
 + [General guidelines](#general)
-  + [Indentation](#indentation)
+  + [2 Space indentation](#indentation)
   + [Intelligently commenting your code](#intelligently-commenting-your-code)
+  + [Single quotes](#quotes)
 + [Git](#git) 
   + [Issues](#issues)
   + [Commits](#commits)
@@ -22,6 +23,10 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
   + [Naming repositories](#naming-repos)
 + [Markdown](#markdown)
 + [ ] [CSS](#css)
+  + [General points](#general-points)
+  + [Indentation](#indentation)
+  + [Naming conventions](#naming-conventions)
+  + [Grouping properties](#grouping-properties)
 + [ ] [JavaScript](#javascript)
   
 
@@ -64,6 +69,12 @@ else {
   ...
 }
 ```
+###Quotes
+**Use `'` single quotes `'` everywhere**, except: 
++ When constructing a string including properties which are themselves denoted by single quotes:   
+e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
++ When *manually* creating a **JSON** object/file (as these [are not valid JSON](https://github.com/dwyl/style-guide/issues/5#issuecomment-130252764))
+
 <br/>
 
 ##Git
@@ -147,12 +158,26 @@ Here's what we _do_ use:
 + Semantic class names
 + BEM-like _modifier_ syntax (using `--`), e.g. modifying `.site-logo` to `.site-logo--xmas`
 
-
+##Grouping properties
+* Group properties **by type**
+  * For example, `font` and `text-align` properties would sit together, as would `border`, `display`, `height` and `width` properties
+* For further organisation, favour alphabetical ordering (grouping by type _always_ takes precedence)
 
 
 <br/>
 ##JavaScript
-Semicolons please!
++ **Use semicolons** please!
++ **No trailing commas** on object declarations:
+```javascript
+var example_object = {
+    name: 'dwyl',
+    age: 1 //<-- Having a comma after the '1' would be a 'trailing comma' 
+};
+```
+
+###Variable naming
++ If you can, use a descriptive **one word** variable name
++ If one word isn't enough, **use underscores to separate words** ([snake case](https://en.wikipedia.org/wiki/Snake_case)) and not [camel case](https://en.wikipedia.org/wiki/CamelCase): `var example_variable`
 
 https://github.com/dwyl/summer-2015/issues/22
 
