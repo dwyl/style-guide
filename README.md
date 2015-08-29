@@ -41,10 +41,7 @@ Even though we have our own idea of what maintainable code looks like, _the impo
 ##General
 
 ###Indentation
-**2 space indentation**.    
-You can usually set this up in the _Preferences_ of your favourite text editor so you never have to think about it again (example below on [Atom editor](https://atom.io/)).
-
-<img width="507" alt="atom-soft-tab-preferences-menu" src="https://cloud.githubusercontent.com/assets/4185328/9154618/a6598690-3e91-11e5-939b-2c03cf3c7ffc.png">
+**2 space indentation** (see our [developer setup guide](https://github.com/dwyl/setup) for tips on setting this kind of thing up in your text editor).
 
 ###Intelligently commenting your code
 We favour the _intelligent approach_.
