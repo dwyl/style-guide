@@ -4,7 +4,7 @@
 
 <small>_https://en.wikipedia.org/wiki/Style_guide_</small>
 
-**_This style guide is a work in progress and is being put together over the course of [#dwylsummer](https://github.com/dwyl/summer-2015)_**.
+**_This style guide is a work in progress and is being put together over the course of [#dwylsummer](https://github.com/dwyl/summer-2015)_** and the rest of our work.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/style-guide/issues) Please open an issue if you have an questions or comments at all!
 
@@ -43,7 +43,7 @@ Even though we have our own idea of what maintainable code looks like, _the impo
 ### Indentation
 **2 space indentation** (see our [developer setup guide](https://github.com/dwyl/setup) for tips on setting this kind of thing up in your text editor).
 
-###Intelligently commenting your code
+### Intelligently commenting your code
 We favour the _intelligent approach_.
 
 Many developers (not us) believe that [well-written code doesn't need comments](http://sublimecoding.com/blog/2015/01/12/dont-comment-your-code-rewrite-it).
@@ -142,14 +142,14 @@ For readability, we use `_` _underscores_ `_` for _italics_ and `**` **double as
   + i.e. if you're styling a site's navigation, style `primary-nav` instead of `header ul`
 + Pick class names that are as re-usable as possible (e.g. pick `primary-nav` over `site-nav`)
 
-###Indentation
+### Indentation
 CSS indentation should mirror the HTML structure.
 ```css
 .article {}
   .article-quote {}
 ```
 
-###Naming conventions
+### Naming conventions
 **_For now_**, we _don't_ use [BEM CSS naming conventions](https://github.com/dwyl/start-here/issues/41) as it doesn't provide the _flexibility_ we feel we need during the early stages of our work.     
 Here's what we _do_ use:
 + Semantic class names
