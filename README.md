@@ -1,4 +1,4 @@
-#dwyl Style Guide 
+# dwyl Style Guide 
 
 >A style guide is a set of standards [which] establish and enforce style to improve communication.
 
@@ -10,7 +10,7 @@
 
 For now, the **visual** and **coding styles** [will live in the _same repo_](https://github.com/dwyl/summer-2015/issues/22). If the size of this readme gets out of hand or if we have a lot of requests to separate them, we'll do so.
 
-##Contents Guide
+## Contents Guide
 + [Why?](#why)
 + [General guidelines](#general)
   + [2 Space indentation](#indentation)
@@ -30,7 +30,7 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
 + [ ] [JavaScript](#javascript)
   
 
-##Why?
+## Why?
 **Consistency**.    
 
 Every developer likes to do things their own way.    
@@ -38,9 +38,9 @@ Even though we have our own idea of what maintainable code looks like, _the impo
 <br/>
 <br/>
 
-##General
+## General
 
-###Indentation
+### Indentation
 **2 space indentation** (see our [developer setup guide](https://github.com/dwyl/setup) for tips on setting this kind of thing up in your text editor).
 
 ###Intelligently commenting your code
@@ -66,7 +66,7 @@ else {
   ...
 }
 ```
-###Quotes
+### Quotes
 **Use `'` single quotes `'` everywhere**, except: 
 + When constructing a string including properties which are themselves denoted by single quotes:   
 e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
@@ -74,15 +74,15 @@ e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
 
 <br/>
 
-##Git
+## Git
 
-###Issues
+### Issues
 + Your issue title should be **short but descriptive**
 + Use **labels** please!
 + If you want someone specific to look at your issue, **assign it to them**
 + **When referring to a file**, always do so within the **context of a specific commit** (as that file could be constantly changing and your issue will quickly stop making sense)
-  + Example: [https://github.com/dwyl/style-guide/blob/<b>dea0009638b7923521a13190f17090af37a7ff22</b>/README.md](https://github.com/dwyl/style-guide/blob/dea0009638b7923521a13190f17090af37a7ff22/README.md) and _not_ https://github.com/dwyl/style-guide/blob/master/README.md
-  + To get this URL, go to the _History_ tab on the top right of your document and choosing a commit form the list that appears    
+  + Example: [https://github.com/dwyl/style-guide/blob/<b>dea0009638b7923521a13190f17090af37a7ff22</b>/README.md](https://github.com/dwyl/style-guide/blob/dea0009638b7923521a13190f17090af37a7ff22/README.md) and **_not_** https://github.com/dwyl/style-guide/blob/master/README.md
+  + To get this URL, go to the _History_ tab on the top right of your document and choose a commit form the list that appears    
   <img width="288" alt="history-tab-on-git-documents" src="https://cloud.githubusercontent.com/assets/4185328/9290455/55d5dc6e-438c-11e5-851d-71127213f565.png">
 + **When referring to a specific piece of code, include the line number** that code is on
   + You can either add this by add `#L` and the line number to the end of the URL (e.g. https://github.com/dwyl/hapi-socketio-redis-chat-example/blame/b26354e3f37b2bdd0414b9b01bfe45db7ee9504e/lib/chat.js#L6) **or**
@@ -90,7 +90,7 @@ e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
   <img width="274" alt="blame-tab-on-git-documents" src="https://cloud.githubusercontent.com/assets/4185328/9290470/e46c2578-438c-11e5-95a7-19dfbcf82b00.png">
   + You can now click on any line and the line number will be added to the URL
 
-###Commits
+### Commits
 + Use the **third person present tense** in your commit messages, as if you were finishing off the sentence _"This commit message..."_
   + For example _"adds riot.js to index"_ or _"fixes #12 disappearing content bug"_
 + **Include an issue number in _every commit message_**
@@ -107,10 +107,10 @@ e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
 
 
 
-###Pull Requests
+### Pull Requests
 Good pull requests (PR) reduce the back and forth required between the person submitting the PR and the assigned reviewer, saving everyone time.
 + Before submitting a PR, **open a new issue** so you can _confirm the need_ for the functionality you are intending to add (like in [this example](https://github.com/indexzero/ps-tree/issues/10))
-+ When you submit your pull request, include:
++ **When you submit your pull request, include:**
   + A **descriptive title** that answers the question "What does this PR do?"
   + A reference to the issue that the PR solves
   + An explanation of what the PR includes (**bullet pointed lists** are sometimes helpful to make things clearer) and the _implementation detail_
@@ -119,24 +119,24 @@ Good pull requests (PR) reduce the back and forth required between the person su
   
 A good example is this one: https://github.com/indexzero/ps-tree/pull/12
 
-####Reviewing pull requests
+#### Reviewing pull requests
 + [Inline comments on github](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/) are very useful when reviewing pull requests, both for traceability and speed of review.
 
 <img width="940" alt="add-comment-inline-in-pr-comment-box" src="https://cloud.githubusercontent.com/assets/4185328/9238544/0d293b20-414b-11e5-8604-15ba4f229525.png">
 
-###Naming repos
+### Naming repos
 + We favour one-word names for **node modules** (make sure the name is available [on npm](http://www.npmjs.com)) and descriptive names for everything else (especially tutorials!)
 
 <br/>
 
-##Markdown
+## Markdown
 [This is a good reference for markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).    
 For readability, we use `_` _underscores_ `_` for _italics_ and `**` **double asterisks** `**` for **bold**.
 
 <br/>
 
-##CSS
-###General points
+## CSS
+### General points
 + Use _classes_, **not IDs** as your hooks
 + Explicitly select **what you want** rather than fumbling around the HTML structure searching for hooks - practice good [_selector intent_](http://csswizardry.com/2012/07/shoot-to-kill-css-selector-intent/)
   + i.e. if you're styling a site's navigation, style `primary-nav` instead of `header ul`
@@ -155,14 +155,14 @@ Here's what we _do_ use:
 + Semantic class names
 + BEM-like _modifier_ syntax (using `--`), e.g. modifying `.site-logo` to `.site-logo--xmas`
 
-##Grouping properties
+## Grouping properties
 * Group properties **by type**
   * For example, `font` and `text-align` properties would sit together, as would `border`, `display`, `height` and `width` properties
 * For further organisation, favour alphabetical ordering (grouping by type _always_ takes precedence)
 
 
 <br/>
-##JavaScript
+## JavaScript
 + **Use semicolons** please!
 + **No trailing commas** on object declarations:
 ```javascript
@@ -172,7 +172,7 @@ var example_object = {
 };
 ```
 
-###Variable naming
+### Variable naming
 + If you can, use a descriptive **one word** variable name
 + If one word isn't enough, **use underscores to separate words** ([snake case](https://en.wikipedia.org/wiki/Snake_case)) and not [camel case](https://en.wikipedia.org/wiki/CamelCase): `var example_variable`
 
