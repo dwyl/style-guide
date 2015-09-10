@@ -131,7 +131,10 @@ A good example is this one: https://github.com/indexzero/ps-tree/pull/12
 
 ## Markdown
 [This is a good reference for markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).    
-For readability, we use `_` _underscores_ `_` for _italics_ and `**` **double asterisks** `**` for **bold**.
+For readability, we use:
+ + `_` _underscores_ `_` for _italics_ 
+ + `**` **double asterisks** `**` for **bold**
+ + `+` plus signs for bullet points (so they're not confused with bold or italics on first glance)
 
 <br/>
 
