@@ -155,7 +155,7 @@ CSS indentation should mirror the HTML structure.
 ### Naming conventions
 **_For now_**, we _don't_ use [BEM CSS naming conventions](https://github.com/dwyl/start-here/issues/41) as it doesn't provide the _flexibility_ we feel we need during the early stages of our work.     
 Here's what we _do_ use:
-+ Semantic class names
++ Semantic class names (e.g. not `green-btn` but `primary-action-btn`)
 + BEM-like _modifier_ syntax (using `--`), e.g. modifying `.site-logo` to `.site-logo--xmas`
 
 ## Grouping properties
