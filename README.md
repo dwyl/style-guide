@@ -22,12 +22,12 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
   + [Pull requests](#pull-requests)
   + [Naming repositories](#naming-repos)
 + [Markdown](#markdown)
-+ [ ] [CSS](#css)
++ [CSS](#css) (WiP)
   + [General points](#general-points)
   + [Indentation](#indentation)
   + [Naming conventions](#naming-conventions)
   + [Grouping properties](#grouping-properties)
-+ [ ] [JavaScript](#javascript)
++ [JavaScript](#javascript) (WiP)
   
 
 ## Why?
@@ -106,18 +106,10 @@ e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
 <img width="695" alt="emojis-in-commit-messages" src="https://cloud.githubusercontent.com/assets/4185328/9212573/14112b74-4082-11e5-822e-bc66250c5712.png">
 
 
-
 ### Pull Requests
 Good pull requests (PR) reduce the back and forth required between the person submitting the PR and the assigned reviewer, saving everyone time.
-+ Before submitting a PR, **open a new issue** so you can _confirm the need_ for the functionality you are intending to add (like in [this example](https://github.com/indexzero/ps-tree/issues/10))
-+ **When you submit your pull request, include:**
-  + A **descriptive title** that answers the question "What does this PR do?"
-  + A reference to the issue that the PR solves
-  + An explanation of what the PR includes (**bullet pointed lists** are sometimes helpful to make things clearer) and the _implementation detail_
-  + An **update to the documentation** (often the repo's readme)
-  + **Assign your pull request** to someone for review (this person will be the first point of contact if the PR merges a bug into the production environment)
-  
-A good example is this one: https://github.com/indexzero/ps-tree/pull/12
+
+For our guidelines on contributing pull requests to dwyl projects, please see: https://github.com/dwyl/contributing
 
 #### Reviewing pull requests
 + [Inline comments on github](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/) are very useful when reviewing pull requests, both for traceability and speed of review.
