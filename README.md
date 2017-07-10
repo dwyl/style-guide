@@ -35,8 +35,8 @@ For now, the **visual** and **coding styles** [will live in the _same repo_](htt
 
 Every developer likes to do things their own way.    
 Even though we have our own idea of what maintainable code looks like, _the important thing_ isn't how many spaces we indent our code with but that **everything is consistent** so new people _don't have to work through personal formatting quirks_ of previous developers and can **focus on the code**.
-<br/>
-<br/>
+<br />
+<br />
 
 ## General
 
@@ -72,7 +72,7 @@ else {
 e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
 + When *manually* creating a **JSON** object/file (as these [are not valid JSON](https://github.com/dwyl/style-guide/issues/5#issuecomment-130252764))
 
-<br/>
+<br />
 
 ## Git
 
@@ -119,7 +119,7 @@ For our guidelines on contributing pull requests to dwyl projects, please see: h
 ### Naming repos
 + We favour one-word names for **node modules** (make sure the name is available [on npm](http://www.npmjs.com)) and descriptive names for everything else (especially tutorials!)
 
-<br/>
+<br />
 
 ## Markdown
 [This is a good reference for markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).    
@@ -128,7 +128,7 @@ For readability, we use:
  + `**` **double asterisks** `**` for **bold**
  + `+` plus signs for bullet points (so they're not confused with bold or italics on first glance)
 
-<br/>
+<br />
 
 ## CSS
 ### General points
@@ -156,10 +156,11 @@ Here's what we _do_ use:
 * For further organisation, favour alphabetical ordering (grouping by type _always_ takes precedence)
 
 
-<br/>
+<br />
 ## JavaScript
 + **Use semicolons** please!
 + **No trailing commas** on object declarations:
+
 ```javascript
 var example_object = {
     name: 'dwyl',
