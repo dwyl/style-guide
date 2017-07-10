@@ -156,10 +156,11 @@ Here's what we _do_ use:
 * For further organisation, favour alphabetical ordering (grouping by type _always_ takes precedence)
 
 
-<br/>
+</br>
 ## JavaScript
 + **Use semicolons** please!
 + **No trailing commas** on object declarations:
+
 ```javascript
 var example_object = {
     name: 'dwyl',
