@@ -157,7 +157,9 @@ Here's what we _do_ use:
 
 
 <br />
-## JavaScript
+
+### JavaScript
+
 + **Use semicolons** please!
 + **No trailing commas** on object declarations:
 
