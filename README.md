@@ -36,7 +36,7 @@ or have a question, please
   - [Semantic Line Breaks ↩](#semantic-line-breaks-)
     - [Example 💡](#example-)
     - [_Exception_? 💭](#exception-)
-- [CSS 🌈](#css-)
+- [CSS 👩‍🎨](#css-)
   - [Formatting 🦄](#formatting-)
   - [Naming Conventions 🍓](#naming-conventions-)
   - [Grouping Properties 👥](#grouping-properties-)
@@ -377,7 +377,7 @@ thus our sentences are short and broken out by meaning.
 Avoid super long lines of text:
 
 ```md
-MR. JONES, of the Manor Farm, had locked the hen-houses for the night, but was too drunk to remember to shut the popholes. With the ring of light from his lantern dancing from side to side, he lurched across the yard, kicked off his boots at the back door, drew himself a last glass of beer from the barrel in the scullery, and made his way up to bed, where Mrs. Jones was already snoring.
+MR. Jones, of the Manor Farm, had locked the hen-houses for the night, but was too drunk to remember to shut the popholes. With the ring of light from his lantern dancing from side to side, he lurched across the yard, kicked off his boots at the back door, drew himself a last glass of beer from the barrel in the scullery, and made his way up to bed, where Mrs. Jones was already snoring.
 ```
 
 This super long line of text is un-reviewable/maintainable. 😢
@@ -385,7 +385,7 @@ This super long line of text is un-reviewable/maintainable. 😢
 Break it out by semantic sections:
 
 ```md
-MR. JONES, of the Manor Farm,
+MR. Jones, of the Manor Farm,
 had locked the hen-houses for the night,
 but was too drunk to remember to shut the popholes.
 With the ring of light from his lantern dancing from side to side,
@@ -412,7 +412,7 @@ e.g:
 We follow the ["Semantic Linefeed"](https://rhodesmill.org/brandon/2012/one-sentence-per-line) rule in our markdown documents.
 ```
 
-> **Note**: That sentence requires horizontal scrolling, a time-suck. 😕
+> **Note**: That sentence requires horizontal scrolling, a time-suck. ⏳😕
 
 Becomes:
 
@@ -425,7 +425,7 @@ rule in our markdown documents.
 Use your best judgement.
 Keep it easy for the _humans_ to read! 👩🏻‍💻
 
-## CSS 🌈
+## CSS 👩‍🎨
 
 + Learn and _Use_ `Tailwind CSS`
   [dwyl/learn-tailwind](https://github.com/dwyl/learn-tailwind)
