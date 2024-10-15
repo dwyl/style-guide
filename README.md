@@ -14,30 +14,29 @@ we **need _your_ help** to _maintain_ and extend it. 🙏
 
 </div>
 
-- [Why?](#why)
-- [General](#general)
-  - [Indentation](#indentation)
-  - [_Intelligently_ Comment Code](#intelligently-comment-code)
-  - [Quotes](#quotes)
-- [Git](#git)
-  - [Issues](#issues)
-  - [Commits](#commits)
-  - [Pull Requests](#pull-requests)
-    - [_Reviewing_ PRs](#reviewing-prs)
-  - [Naming Repos](#naming-repos)
-- [Markdown](#markdown)
-- [CSS](#css)
-  - [General points](#general-points)
-  - [Indentation](#indentation-1)
-  - [Naming Conventions](#naming-conventions)
-- [Grouping Properties](#grouping-properties)
-  - [JavaScript](#javascript)
-  - [Variable naming](#variable-naming)
-- [Recommended Reading](#recommended-reading)
+- [Why? 🤷🏻‍♀️](#why-️)
+- [General 👋](#general-)
+  - [Indentation 🪐](#indentation-)
+  - [_Intelligently_ Comment Code 💬](#intelligently-comment-code-)
+  - [Quotes 🧵](#quotes-)
+- [Git 👩‍💻](#git-)
+  - [Issues 📝](#issues-)
+  - [Commits ✨](#commits-)
+  - [Pull Requests 🚀](#pull-requests-)
+    - [_Reviewing_ PRs 👀](#reviewing-prs-)
+  - [Naming Repos 🌹](#naming-repos-)
+- [Markdown ⬇️](#markdown-️)
+- [CSS 🌈](#css-)
+  - [Indentation ✌️](#indentation-️)
+  - [Naming Conventions 🍓](#naming-conventions-)
+- [Grouping Properties 👥](#grouping-properties-)
+  - [JavaScript ☕](#javascript-)
+  - [Variable Naming 🐍](#variable-naming-)
+- [Recommended Reading 📖](#recommended-reading-)
   
-## Why?
+## Why? 🤷🏻‍♀️
 
-**_Consistency_**.
+**_Consistency_**. 😍
 
 Creative people often like to do things their own way.
 That can often lead to projects that look wildly different from each other.
@@ -46,9 +45,9 @@ We need **_everything_ consistent** so new people
 _don't have to work through personal formatting quirks_
 of previous engineers and can **focus on the code**. 🎯
 
-## General
+## General 👋
 
-### Indentation
+### Indentation 🪐
 
 We use
 **2 spaces for indentation**
@@ -63,7 +62,7 @@ If **we don't want to _exclude_ people**
 who don't have a full-size keyboard,
 we can _only_ use spaces.
 
-### _Intelligently_ Comment Code
+### _Intelligently_ Comment Code 💬
 
 We favour the _intelligent approach_.
 
@@ -98,7 +97,7 @@ else {
 > It's because they have _experience_ of reading lots of code
 > and want to help the _next_ person understand it the way you do _now_.
 
-### Quotes
+### Quotes 🧵
 
 **Use `"` _double_ quotes `"` for `Strings`**,
 except
@@ -106,9 +105,9 @@ When constructing a string including properties
 which are themselves denoted by single quotes:
 e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
 
-## Git
+## Git 👩‍💻
 
-### Issues
+### Issues 📝
 
 + Your issue/pull request `title` should be **short but descriptive**
 + Use **`labels`** please! see:
@@ -127,7 +126,7 @@ e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
   <img width="274" alt="blame-tab-on-git-documents" src="https://cloud.githubusercontent.com/assets/4185328/9290470/e46c2578-438c-11e5-95a7-19dfbcf82b00.png">
   + You can now click on any line and the line number will be added to the URL
 
-### Commits
+### Commits ✨
 
 + Use the **third person present tense** in your commit messages,
   as if you were finishing off the sentence _"This commit message..."_
@@ -151,7 +150,7 @@ e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
 
 <img width="695" alt="emojis-in-commit-messages" src="https://cloud.githubusercontent.com/assets/4185328/9212573/14112b74-4082-11e5-822e-bc66250c5712.png">
 
-### Pull Requests
+### Pull Requests 🚀
 
 A _good_ pull request (PR) reduces the back and forth
 required between the person submitting the PR
@@ -162,7 +161,7 @@ For our guidelines on contributing pull requests to dwyl projects,
 please see:
 [dwyl/contributing](https://github.com/dwyl/contributing)
 
-#### _Reviewing_ PRs
+#### _Reviewing_ PRs 👀
 
 + [Inline comments on github](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/)
   are very useful when reviewing pull requests,
@@ -171,14 +170,14 @@ please see:
 <img width="940" alt="add-comment-inline-in-pr-comment-box"
   src="https://cloud.githubusercontent.com/assets/4185328/9238544/0d293b20-414b-11e5-8604-15ba4f229525.png">
 
-### Naming Repos
+### Naming Repos 🌹
 
 + We favour one-word names for **node modules**
   (make sure the name is available)
   and _descriptive_ names for everything else
   (especially tutorials!)
 
-## Markdown
+## Markdown ⬇️
 
 We recommend being competent in **`Markdown`**
 as we use it every day.
@@ -189,13 +188,14 @@ For readability, we use:
 + `**` **double asterisks** `**` for **bold**
 + `+` plus signs for bullet points
   (so they're not confused with bold or italics on first glance)
++ **Section Headings** should always be **followed by** a **blank line**.
 
-## CSS
 
-### General points
+## CSS 🌈
 
-+ Learn and Use `Tailwind CSS`
++ Learn and _Use_ `Tailwind CSS`
   [dwyl/learn-tailwind](https://github.com/dwyl/learn-tailwind)
+  great _interface_ is the key to a great _experience_.
 + If you use a _separate_ CSS file,
   use _classes_, **not IDs** as your hooks
 + Explicitly select **what you want** rather than fumbling around
@@ -206,7 +206,7 @@ For readability, we use:
 + Pick class names that are as re-usable as possible
   (e.g. pick `primary-nav` over `site-nav`)
 
-### Indentation
+### Indentation ✌️
 
 CSS indentation should mirror the `HTML` markup structure,
 e.g: 
@@ -216,14 +216,14 @@ e.g:
   .article-quote {}
 ```
 
-### Naming Conventions
+### Naming Conventions 🍓
 
 When we need to apply styles to an element, use:
 
 + Semantic class names (e.g. not `green-btn` but `primary-action-btn`)
 + BEM-like _modifier_ syntax (using `--`), e.g. modifying `.site-logo` to `.site-logo--xmas`
 
-## Grouping Properties
+## Grouping Properties 👥
 
 + Group properties **by type**
   e.g: `font` and `text-align` properties would sit together,
@@ -232,7 +232,7 @@ When we need to apply styles to an element, use:
   (grouping by type _always_ takes precedence)
 
 
-### JavaScript
+### JavaScript ☕
 
 + **Use semicolons** please!
 + **No trailing commas** on object declarations:
@@ -244,7 +244,7 @@ const example_object = {
 };
 ```
 
-### Variable naming
+### Variable Naming 🐍
 
 + If you can, use a descriptive **one word** variable name
 + If one word isn't enough, **use underscores to separate words**
@@ -252,7 +252,9 @@ const example_object = {
   and not [`camelCase`](https://en.wikipedia.org/wiki/CamelCase),
   e.g: `let auth_token = "e2jxyz.etc.etc`
 
-## Recommended Reading
+## Recommended Reading 📖
 
 + 29 Well-Designed Online Style Guides
 [webdesignledger.com/29-online-style-guides](https://webdesignledger.com/29-online-style-guides/)
++ Useful tips for better commit messages:
+[thoughtbot.com/5-useful-tips-for-a-better-commit-message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
