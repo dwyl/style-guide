@@ -31,9 +31,11 @@ or have a question, please
   - [Naming Repos 🌹](#naming-repos-)
   - [Naming Files 🗄️](#naming-files-️)
 - [Markdown ⬇️](#markdown-️)
+  - [Use Descriptive Link Text 🔗](#use-descriptive-link-text-)
+    - [Avoid One-Word Non-Semantic Link Text](#avoid-one-word-non-semantic-link-text)
   - [Semantic Line Breaks ↩](#semantic-line-breaks-)
     - [Example 💡](#example-)
-    - [_Exception_? 🔗](#exception-)
+    - [_Exception_? 💭](#exception-)
 - [CSS 🌈](#css-)
   - [Formatting 🦄](#formatting-)
   - [Naming Conventions 🍓](#naming-conventions-)
@@ -312,6 +314,46 @@ For readability, we use:
   (so they're not confused with bold or italics on first glance)
 + **Section Headings** should always be **followed by** a **blank line**.
 
+### Use Descriptive Link Text 🔗
+
+We prefer to _either_ use **_super_ descriptive link text**
+e.g:
+
+```md
+Learn how to do what you love by reading the 
+[start here repo](https://github.com/dwyl/start-here).
+```
+
+Or simply use the **`URL`** as the **link text**
+e.g:
+
+```md
+Read our "start here" doc to learn how to do what you love:
+[dwyl/start-here](https://github.com/dwyl/start-here)
+```
+
+This is infinitely better than non-semantic link text (inaccessible!)
+which should be avoided at all costs!
+
+#### Avoid One-Word Non-Semantic Link Text
+
+Avoid including non-semantic link text e.g:
+
+```md
+You can find more info [here](https://en.wikipedia.org/wiki/Computer_security) on Cyber Security.
+```
+
+or
+
+```md
+[Click here](https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Series:_XYZ) for more details on **XYZ**.
+```
+
+Both of these examples are _horrible_ for accessibility and should be avoided.
+
+Read more:
+[mtu.edu/accessibility/training/web/link-text/](https://www.mtu.edu/accessibility/training/web/link-text/)
+
 ### Semantic Line Breaks ↩
 
 When writing prose in `markdown`
@@ -332,12 +374,7 @@ thus our sentences are
 Avoid super long lines of text:
 
 ```md
-MR. JONES, of the Manor Farm, had locked the hen-houses for the
-night, but was too drunk to remember to shut the popholes. With the
-ring of light from his lantern dancing from side to side, he lurched
-across the yard, kicked off his boots at the back door, drew himself a
-last glass of beer from the barrel in the scullery, and made his way up to
-bed, where Mrs. Jones was already snoring.
+MR. JONES, of the Manor Farm, had locked the hen-houses for the night, but was too drunk to remember to shut the popholes. With the ring of light from his lantern dancing from side to side, he lurched across the yard, kicked off his boots at the back door, drew himself a last glass of beer from the barrel in the scullery, and made his way up to bed, where Mrs. Jones was already snoring.
 ```
 
 This super long line of text is un-reviewable/maintainable.
@@ -356,11 +393,11 @@ and made his way up to bed,
 where Mrs. Jones was already snoring.
 ```
 
-_Where_ you place the linefeeds is not as important as _having_ them.
-i.e: just break up the long lines into smaller chunks that each have a though.
-And try to keep them less than **80 chars** where possible/practical.
+_Where_ you place the line breaks is not as important as _having_ them.
+i.e: just break up the long lines into smaller chunks that each have a though,
+and try to keep them less than **80 chars** where possible/practical.
 
-#### _Exception_? 🔗
+#### _Exception_? 💭
 
 The _obvious_ exception to this is when there is a `URL`
 that is longer than **80 chars**.
@@ -371,6 +408,8 @@ e.g:
 ```md
 We follow the ["Semantic Linefeed"](https://rhodesmill.org/brandon/2012/one-sentence-per-line) rule in our markdown documents.
 ```
+
+> **Note**: That sentence requires horizontal scrolling, a time-suck. 😕
 
 Becomes:
 
@@ -452,6 +491,8 @@ See:
 
 + 29 Well-Designed Online Style Guides
 [webdesignledger.com/29-online-style-guides](https://webdesignledger.com/29-online-style-guides/)
++ Tips on writing Descriptive Link Text:
+[mtu.edu/accessibility/training/web/link-text](https://www.mtu.edu/accessibility/training/web/link-text/)
 + Useful tips for better commit messages:
 [thoughtbot.com/5-useful-tips-for-a-better-commit-message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
 + CSS for Software Engineers:
