@@ -39,8 +39,8 @@ or have a question, please
 - [CSS 🌈](#css-)
   - [Formatting 🦄](#formatting-)
   - [Naming Conventions 🍓](#naming-conventions-)
-- [Grouping Properties 👥](#grouping-properties-)
-  - [JavaScript ☕](#javascript-)
+  - [Grouping Properties 👥](#grouping-properties-)
+- [JavaScript ☕](#javascript-)
   - [Variable Naming 🐍](#variable-naming-)
   - [`README` Badges? ](#readme-badges-)
 - [Recommended Reading 📖](#recommended-reading-)
@@ -129,14 +129,15 @@ else {
 > **Note**: try not to be offended if someone reviewing your PR/code
 > asks you to **please add comments**.
 > It's because they have _experience_ of reading lots of code
-> and want to help the _next_ person understand it the way you do _now_.
+> and want to help the _next_ person
+> understand it the way you do _now_. 😊
 
 ### Quotes 🧵
 
 **Use `"` _double_ quotes `"` for `Strings`**,
 except when constructing a string including properties
 which are themselves denoted by single quotes:
-e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
+e.g: `var str = "<a class='big' href='/register'>Register To Comment</a>";`
 
 Most programming languages we use,
 e.g:
@@ -145,7 +146,8 @@ e.g:
 [`Dart`](https://stackoverflow.com/a/54014914/1148249)
 allow single and double quotes to be used _interchangeably_.
 But `Elixir` and `JSON` do not.
-`String` in `Elixir` _must_ use double-quotes,
+[`String`](https://hexdocs.pm/elixir/1.17/String.html)
+in `Elixir` _must_ use **double-quotes**,
 and _valid_ `JSON` keys/values _must_ be surrounded by double-quotes.
 This is why we use double-quotes for `Strings`;
 it makes everyone's life easier/faster when switching between code bases.
@@ -156,6 +158,7 @@ Again, this isn't a debate. 😊
 
 If you are new to `Git` and/or `GitHub`
 we recommend reading our **`Git` Guide**:
+[dwyl/git-guide](https://github.com/dwyl/git-guide)
 
 ### Issues 📝
 
@@ -454,7 +457,7 @@ When we need to apply styles to an element, use:
 + Semantic class names (e.g. not `green-btn` but `primary-action-btn`)
 + BEM-like _modifier_ syntax (using `--`), e.g. modifying `.site-logo` to `.site-logo--xmas`
 
-## Grouping Properties 👥
+### Grouping Properties 👥
 
 + Group properties **by type**
   e.g: `font` and `text-align` properties would sit together,
@@ -462,7 +465,7 @@ When we need to apply styles to an element, use:
 + For further organisation, favour alphabetical ordering
   (grouping by type _always_ takes precedence)
 
-### JavaScript ☕
+## JavaScript ☕
 
 + **Use semicolons** please!
 + **No trailing commas** on object declarations:
@@ -481,7 +484,7 @@ const example_object = {
   [`snake_case`](https://en.wikipedia.org/wiki/Snake_case))
   _not_ 
   [`camelCase`](https://en.wikipedia.org/wiki/CamelCase) <br />
-  e.g: `let auth_token = "e2jxyz.etc.etc`
+  e.g: `let auth_token = "e2jxyz.etc.etc"`
 
 ### `README` Badges? [![repo-bades](https://img.shields.io/badge/badges-please-brightgreen.svg?style=flat-square)](https://github.com/dwyl/style-guide/issues)
 
@@ -504,6 +507,6 @@ See:
 
 The best way to let everyone know you have read
 and _understood_ this style guide is to
-star the repo on `GitHub`. 🌟
+**star** the `GitHub` repo. 🌟
 
 Thank you! ❤️
