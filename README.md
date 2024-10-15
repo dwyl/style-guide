@@ -44,7 +44,7 @@ or have a question, please
   - [Variable Naming 🐍](#variable-naming-)
   - [`README` Badges? ](#readme-badges-)
 - [Recommended Reading 📖](#recommended-reading-)
-- [Star it ⭐](#star-it-)
+- [Please Star ⭐](#please-star-)
   
 ## Why? 🤷🏻‍♀️
 
@@ -503,7 +503,7 @@ See:
 + CSS for Software Engineers:
 [speakerdeck.com/csswizardry/css-for-software-engineers](https://speakerdeck.com/csswizardry/css-for-software-engineers-for-css-developers)
 
-## Star it ⭐
+## Please Star ⭐
 
 The best way to let everyone know you have read
 and _understood_ this style guide is to
