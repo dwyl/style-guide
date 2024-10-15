@@ -27,8 +27,9 @@ or just have a question, please
   - [Commits ✨](#commits-)
   - [Pull Requests 🚀](#pull-requests-)
     - [_Reviewing_ PRs 👀](#reviewing-prs-)
-    - [Use In-line Code Suggestions in PRs! 💡](#use-in-line-code-suggestions-in-prs-)
+    - [Use In-line Code Suggestions in PRs! 📝](#use-in-line-code-suggestions-in-prs-)
   - [Naming Repos 🌹](#naming-repos-)
+  - [Naming Files 🗄️](#naming-files-️)
 - [Markdown ⬇️](#markdown-️)
   - [Semantic Line Breaks](#semantic-line-breaks)
 - [CSS 🌈](#css-)
@@ -213,28 +214,65 @@ please see:
 
 #### _Reviewing_ PRs 👀
 
-+ [Inline comments on github](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/)
-  are very useful when reviewing pull requests,
-  both for traceability and speed of review.
+Use 
+[inline comments on github](https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/)
+when reviewing pull requests,
+both for traceability and to help the person submitting the PR improve.
 
 <img width="940" alt="add-comment-inline-in-pr-comment-box"
   src="https://cloud.githubusercontent.com/assets/4185328/9238544/0d293b20-414b-11e5-8604-15ba4f229525.png">
 
-#### Use In-line Code Suggestions in PRs! 💡
+#### Use In-line Code Suggestions in PRs! 📝
 
 When there is a simple/obvious code or copy change
 that can be made in a Pull Request to save time,
-simply use the 
+simply use the code suggestion button in the PR comment.
 
+Hover over the line of code where you'd like to add a comment,
+and click the blue comment icon:
 
-See: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request
+![add-comment](https://github.com/user-attachments/assets/c23e9c86-e678-4b10-a7f4-c38cb391e365)
+
+to suggest a specific change to the line or lines, click `±`,
+then edit the text within the suggestion block.
+
+![make-code-suggestion](https://github.com/user-attachments/assets/49ee6ecf-aa63-4aca-a2d1-b03e10053fda)
+
+See:
+[docs.github.com/en/pull-requests/collaborating-with-pull-requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)
 
 ### Naming Repos 🌹
 
-+ We favour one-word names for **node modules**
-  (make sure the name is available)
-  and _descriptive_ names for everything else
-  (especially tutorials!)
+We favour one-word names for repos and **node modules**
+(make sure the name is available).
+e.g:
++ [`fields`](https://github.com/dwyl/fields)
++ [`gcal`](https://github.com/dwyl/gcal)
++ [`link`](https://github.com/dwyl/link)
++ [`useful`](https://github.com/dwyl/useful)
++ [`quotes`](https://github.com/dwyl/quotes)
+
+When the name we want is "taken" on the package system we are using,
+we add more words to the repo/package name separated by **hyphens**.
+e.g:
++ [`aws-sdk-mock`](https://github.com/dwyl/aws-sdk-mock)
++ [`elixir-auth-github`](https://github.com/dwyl/elixir-auth-github)
+
+> **Note**: we occasionally use underscores in repo names where 
+
+Try to use _descriptive_ names for everything else
+(especially tutorials!)
+e.g:
++ [`javascript-todo-list-tutorial`](https://github.com/dwyl/javascript-todo-list-tutorial)
++ [`phoenix-liveview-counter-tutorial`](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
++ 
+
+### Naming Files 🗄️
+
+Always use `lowercase` names for files and directories.
+The exception to this are the files `GitHub` creates by default
+e.g:
+`LICENSE`, `README.md`, `CONTRIBUTING` and `CODE_OF_CONDUCT`, etc.
 
 ## Markdown ⬇️
 
@@ -320,6 +358,8 @@ const example_object = {
 [webdesignledger.com/29-online-style-guides](https://webdesignledger.com/29-online-style-guides/)
 + Useful tips for better commit messages:
 [thoughtbot.com/5-useful-tips-for-a-better-commit-message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
++ CSS for Software Engineers:
+[speakerdeck.com/csswizardry/css-for-software-engineers](https://speakerdeck.com/csswizardry/css-for-software-engineers-for-css-developers)
 
 ## Star it ⭐
 
