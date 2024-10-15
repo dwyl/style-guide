@@ -32,7 +32,7 @@ or have a question, please
   - [Naming Files 🗄️](#naming-files-️)
 - [Markdown ⬇️](#markdown-️)
   - [Use Descriptive Link Text 🔗](#use-descriptive-link-text-)
-    - [Avoid One-Word Non-Semantic Link Text](#avoid-one-word-non-semantic-link-text)
+    - [Avoid One-Word Non-Semantic Link Text 👎](#avoid-one-word-non-semantic-link-text-)
   - [Semantic Line Breaks ↩](#semantic-line-breaks-)
     - [Example 💡](#example-)
     - [_Exception_? 💭](#exception-)
@@ -42,7 +42,7 @@ or have a question, please
 - [Grouping Properties 👥](#grouping-properties-)
   - [JavaScript ☕](#javascript-)
   - [Variable Naming 🐍](#variable-naming-)
-  - [`README` Badges? \](https://github.com/dwyl/style-guide/issues)](#readme-badges-httpsgithubcomdwylstyle-guideissues)
+  - [`README` Badges? ](#readme-badges-)
 - [Recommended Reading 📖](#recommended-reading-)
 - [Star it ⭐](#star-it-)
   
@@ -283,7 +283,7 @@ e.g:
 > [`dart_multihash`](https://github.com/dwyl/dart_multihash)
 > However we try to minimize this and prefer hyphens.
 
-If a single-word name is not possible, 
+If a single-word name is not possible,
 use _descriptive_ names
 (especially for tutorials!)
 e.g:
@@ -335,7 +335,7 @@ Read our "start here" doc to learn how to do what you love:
 This is infinitely better than non-semantic link text (inaccessible!)
 which should be avoided at all costs!
 
-#### Avoid One-Word Non-Semantic Link Text
+#### Avoid One-Word Non-Semantic Link Text 👎
 
 Avoid including non-semantic link text e.g:
 
@@ -365,9 +365,9 @@ We follow the
 ["Semantic Linefeed"](https://rhodesmill.org/brandon/2012/one-sentence-per-line)
 rule
 (or "one thought per line")
-whereby we line-break each time there is a "though joining word"
+whereby we insert a break each time there is a "though joining word"
 such as "and", "or", "but", "therefore", "because", etc.
-thus our sentences are 
+thus our sentences are short and broken out by meaning.
 
 #### Example 💡
 
@@ -377,7 +377,7 @@ Avoid super long lines of text:
 MR. JONES, of the Manor Farm, had locked the hen-houses for the night, but was too drunk to remember to shut the popholes. With the ring of light from his lantern dancing from side to side, he lurched across the yard, kicked off his boots at the back door, drew himself a last glass of beer from the barrel in the scullery, and made his way up to bed, where Mrs. Jones was already snoring.
 ```
 
-This super long line of text is un-reviewable/maintainable.
+This super long line of text is un-reviewable/maintainable. 😢
 
 Break it out by semantic sections:
 
@@ -419,7 +419,8 @@ We follow the
 rule in our markdown documents.
 ```
 
-Use your best judgement. keep it easy for the _humans_ to read! 👩🏻‍💻
+Use your best judgement.
+Keep it easy for the _humans_ to read! 👩🏻‍💻
 
 ## CSS 🌈
 
@@ -482,8 +483,9 @@ const example_object = {
   [`camelCase`](https://en.wikipedia.org/wiki/CamelCase) <br />
   e.g: `let auth_token = "e2jxyz.etc.etc`
 
-### `README` Badges? ![repo-bades](https://img.shields.io/badge/badges-please-brightgreen.svg?style=flat-square)](https://github.com/dwyl/style-guide/issues)
+### `README` Badges? [![repo-bades](https://img.shields.io/badge/badges-please-brightgreen.svg?style=flat-square)](https://github.com/dwyl/style-guide/issues)
 
+We use badges _extensively_ in our projects.
 See:
 [dwyl/repo-badges](https://github.com/dwyl/repo-badges)
 
