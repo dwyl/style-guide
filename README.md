@@ -2,14 +2,14 @@
 
 ![dwyl-style-guide-intro-hero-image-yellow-text](https://github.com/user-attachments/assets/1e20cfa5-94b9-4a28-8e01-8b460b4a653a "dwyl style guide retro game start screen")
 
-A style guide sets standards and improves communication.
+A style guide **sets standards** and **improves communication**.
 ~ [wikipedia.org/Style_guide](https://en.wikipedia.org/wiki/Style_guide)
 
 This style guide is a
 [**work-in-progress**](https://en.wikipedia.org/wiki/Work_in_process)
 we **need _your_ help** to _maintain_ and extend it. 🙏 <br />
 If you spot something that can be improved
-or just have a question, please
+or have a question, please
 [open an issue](https://github.com/dwyl/style-guide/issues). 💬
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/style-guide/issues)
@@ -31,13 +31,16 @@ or just have a question, please
   - [Naming Repos 🌹](#naming-repos-)
   - [Naming Files 🗄️](#naming-files-️)
 - [Markdown ⬇️](#markdown-️)
-  - [Semantic Line Breaks](#semantic-line-breaks)
+  - [Semantic Line Breaks ↩](#semantic-line-breaks-)
+    - [Example 💡](#example-)
+    - [_Exception_? 🔗](#exception-)
 - [CSS 🌈](#css-)
   - [Formatting 🦄](#formatting-)
   - [Naming Conventions 🍓](#naming-conventions-)
 - [Grouping Properties 👥](#grouping-properties-)
   - [JavaScript ☕](#javascript-)
   - [Variable Naming 🐍](#variable-naming-)
+  - [`README` Badges? \](https://github.com/dwyl/style-guide/issues)](#readme-badges-httpsgithubcomdwylstyle-guideissues)
 - [Recommended Reading 📖](#recommended-reading-)
 - [Star it ⭐](#star-it-)
   
@@ -79,6 +82,10 @@ If **we don't want to _exclude_ people**
 who don't have a full-size keyboard,
 we can _only_ use spaces.
 
+> 💡 **Tip**: use the
+> [`.editorconfig`](/.editorconfig)
+> file to automatically define the indentation settings in your editor. 
+
 ### _Intelligently_ Comment Code 💬
 
 We favour the _intelligent approach_ to commenting code.
@@ -86,12 +93,12 @@ We favour the _intelligent approach_ to commenting code.
 Many developers (not us) believe that
 [well-written code doesn't need comments](http://sublimecoding.com/blog/2015/01/12/dont-comment-your-code-rewrite-it).
 Whilst it's true in a tiny hello world app where there almost no code,
-it's not the case in a codebase with many thousands of lines
-that has to be 
-[groked](https://en.wikipedia.org/wiki/Grok)
-by several distinct people.
+it's not the case in a project with many thousands of lines
+that has to be
+[**_groked_**](https://en.wikipedia.org/wiki/Grok)
+by several people of varying experience/skill levels.
 Yes, in some cases
-**adding too many comments** can also make it **_unreadable_**.
+**adding _too many_ comments** can also make it **_unreadable_**.
 The key is:
 **put yourself in the shoes** of the
 [**_next_ person**](https://www.goodreads.com/quotes/248194-always-code)
@@ -125,8 +132,7 @@ else {
 ### Quotes 🧵
 
 **Use `"` _double_ quotes `"` for `Strings`**,
-except
-When constructing a string including properties
+except when constructing a string including properties
 which are themselves denoted by single quotes:
 e.g: `var str = "<a class='big' href='/mylink'>click me</a>"`;
 
@@ -157,25 +163,36 @@ of our
 We follow a simple set of rules that streamline everything:
 
 1. Your issue/pull request `title` should be **short but descriptive**
+
 2. Use **`labels`** please! see:
 [dwyl/labels](https://github.com/dwyl/labels?tab=readme-ov-file#our-list-of-labels--%EF%B8%8F)
+
 3. To request the input of a specific person on an Issue or PR,
    mention them in a comment
    and if you want to _delegate_ a task **assign it to them**.
    However, don't just assign issues/PRs without any explanation,
    that's called [Buck passing](https://en.wikipedia.org/wiki/Buck_passing)
-4. **When referring to a file**, always do so
+
+4. When referring to a file, always do so
   within the **context of a _specific_ commit**
-  (as that file could be constantly changing and your issue will quickly stop making sense)
-  + Example: [https://github.com/dwyl/style-guide/blob/<b>dea0009638b7923521a13190f17090af37a7ff22</b>/README.md](https://github.com/dwyl/style-guide/blob/dea0009638b7923521a13190f17090af37a7ff22/README.md)
-  + and **_not_** https://github.com/dwyl/style-guide/blob/master/README.md
-  + To get this URL, go to the _History_ tab on the top right of your document and choose a commit form the list that appears
+  (as that file could be constantly changing
+  and your issue will quickly stop making sense)
+  Example:
+  [https://github.com/dwyl/style-guide/blob/dea0009638b7923521a13190f17090af37a7ff22/README.md](https://github.com/dwyl/style-guide/blob/dea0009638b7923521a13190f17090af37a7ff22/README.md)
+  and **_not_** https://github.com/dwyl/style-guide/blob/master/README.md
+  To get this URL, go to the _History_ tab on the top right of your document
+  and choose a commit form the list that appears
   <img width="288" alt="history-tab-on-git-documents" src="https://cloud.githubusercontent.com/assets/4185328/9290455/55d5dc6e-438c-11e5-851d-71127213f565.png">
-1. **When referring to a specific piece of code, include the line number** that code is on
-  + You can either add this by add `#L` and the line number to the end of the URL (e.g. https://github.com/dwyl/hapi-socketio-redis-chat-example/blame/b26354e3f37b2bdd0414b9b01bfe45db7ee9504e/lib/chat.js#L6) **or**
-  + Go to a specific commit (as above), click on 'View' and then click on 'Blame' in the top right hand corner    
+
+5. When referring to a specific piece of code,
+  include the line number that code is on.
+  Either add this by add `#L` and the line number
+  to the end of the URL
+  (e.g. https://github.com/dwyl/hapi-socketio-redis-chat-example/blame/b26354e3f37b2bdd0414b9b01bfe45db7ee9504e/lib/chat.js#L6) **or**
+  Go to a specific commit (as above), click on 'View'
+  and then click on 'Blame' in the top right hand corner:
   <img width="274" alt="blame-tab-on-git-documents" src="https://cloud.githubusercontent.com/assets/4185328/9290470/e46c2578-438c-11e5-95a7-19dfbcf82b00.png">
-  + You can now click on any line and the line number will be added to the URL
+  You can now click on any line and the line number will be added to the URL
 
 ### Commits ✨
 
@@ -258,14 +275,22 @@ e.g:
 + [`aws-sdk-mock`](https://github.com/dwyl/aws-sdk-mock)
 + [`elixir-auth-github`](https://github.com/dwyl/elixir-auth-github)
 
-> **Note**: we occasionally use underscores in repo names where 
+> **Note**: we occasionally use underscores in repo names where
+> we want to match the repo name to the _module_ name e.g:
+> [`auth_plug`](https://github.com/dwyl/auth_plug) or
+> [`dart_multihash`](https://github.com/dwyl/dart_multihash)
+> However we try to minimize this and prefer hyphens.
 
-Try to use _descriptive_ names for everything else
-(especially tutorials!)
+If a single-word name is not possible, 
+use _descriptive_ names
+(especially for tutorials!)
 e.g:
 + [`javascript-todo-list-tutorial`](https://github.com/dwyl/javascript-todo-list-tutorial)
 + [`phoenix-liveview-counter-tutorial`](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
-+ 
++ [`phoenix-liveview-realtime-cursor-tracking-tutorial`](https://github.com/dwyl/phoenix-liveview-realtime-cursor-tracking-tutorial)
+
+The more descriptive the title
+the easier it will be for someone to find when searching.
 
 ### Naming Files 🗄️
 
@@ -287,8 +312,75 @@ For readability, we use:
   (so they're not confused with bold or italics on first glance)
 + **Section Headings** should always be **followed by** a **blank line**.
 
-### Semantic Line Breaks
+### Semantic Line Breaks ↩
 
+When writing prose in `markdown`
+or documentation text blocks for code,
+we try to limit the line length to **80 characters** (within reason)
+to aid readability/reviewability on smaller screens e.g: Laptops, Phones, etc.
+
+We follow the
+["Semantic Linefeed"](https://rhodesmill.org/brandon/2012/one-sentence-per-line)
+rule
+(or "one thought per line")
+whereby we line-break each time there is a "though joining word"
+such as "and", "or", "but", "therefore", "because", etc.
+thus our sentences are 
+
+#### Example 💡
+
+Avoid super long lines of text:
+
+```md
+MR. JONES, of the Manor Farm, had locked the hen-houses for the
+night, but was too drunk to remember to shut the popholes. With the
+ring of light from his lantern dancing from side to side, he lurched
+across the yard, kicked off his boots at the back door, drew himself a
+last glass of beer from the barrel in the scullery, and made his way up to
+bed, where Mrs. Jones was already snoring.
+```
+
+This super long line of text is un-reviewable/maintainable.
+
+Break it out by semantic sections:
+
+```md
+MR. JONES, of the Manor Farm,
+had locked the hen-houses for the night,
+but was too drunk to remember to shut the popholes.
+With the ring of light from his lantern dancing from side to side,
+he lurched across the yard,
+kicked off his boots at the back door,
+drew himself a last glass of beer from the barrel in the scullery,
+and made his way up to bed,
+where Mrs. Jones was already snoring.
+```
+
+_Where_ you place the linefeeds is not as important as _having_ them.
+i.e: just break up the long lines into smaller chunks that each have a though.
+And try to keep them less than **80 chars** where possible/practical.
+
+#### _Exception_? 🔗
+
+The _obvious_ exception to this is when there is a `URL`
+that is longer than **80 chars**.
+In those instances we will place the URL on its' own line
+which again, makes it easier to read/maintain/update.
+e.g:
+
+```md
+We follow the ["Semantic Linefeed"](https://rhodesmill.org/brandon/2012/one-sentence-per-line) rule in our markdown documents.
+```
+
+Becomes:
+
+```md
+We follow the
+["Semantic Linefeed"](https://rhodesmill.org/brandon/2012/one-sentence-per-line)
+rule in our markdown documents.
+```
+
+Use your best judgement. keep it easy for the _humans_ to read! 👩🏻‍💻
 
 ## CSS 🌈
 
@@ -330,7 +422,6 @@ When we need to apply styles to an element, use:
 + For further organisation, favour alphabetical ordering
   (grouping by type _always_ takes precedence)
 
-
 ### JavaScript ☕
 
 + **Use semicolons** please!
@@ -351,6 +442,11 @@ const example_object = {
   _not_ 
   [`camelCase`](https://en.wikipedia.org/wiki/CamelCase) <br />
   e.g: `let auth_token = "e2jxyz.etc.etc`
+
+### `README` Badges? ![repo-bades](https://img.shields.io/badge/badges-please-brightgreen.svg?style=flat-square)](https://github.com/dwyl/style-guide/issues)
+
+See:
+[dwyl/repo-badges](https://github.com/dwyl/repo-badges)
 
 ## Recommended Reading 📖
 
