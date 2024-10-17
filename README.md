@@ -368,7 +368,7 @@ We follow the
 ["Semantic Linefeed"](https://rhodesmill.org/brandon/2012/one-sentence-per-line)
 rule
 (or "one thought per line")
-whereby we insert a break each time there is a "though joining word"
+whereby we insert a break each time there is a "thought joining word"
 such as "and", "or", "but", "therefore", "because", etc.
 thus our sentences are short and broken out by meaning.
 
@@ -397,7 +397,7 @@ where Mrs. Jones was already snoring.
 ```
 
 _Where_ you place the line breaks is not as important as _having_ them.
-i.e: just break up the long lines into smaller chunks that each have a though,
+i.e: just break up the long lines into smaller chunks that each have a thought,
 and try to keep them less than **80 chars** where possible/practical.
 
 #### _Exception_? 💭
